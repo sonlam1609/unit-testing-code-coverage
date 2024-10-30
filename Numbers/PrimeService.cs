@@ -2,6 +2,7 @@
 {
     public class PrimeService
     {
+        public int Test { get; set; }
         public bool IsPrime(int candidate)
         {
             if (candidate < 2)
